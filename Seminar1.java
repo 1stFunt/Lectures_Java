@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Seminar1 {
     public static void main(String[] args) {
         // task1(); // Сканнер
-        // task2(); // Вывести максимальное кол-во подряд идущих 1
+        // task2(); // Вывести максимальное кол-во подряд идущих элементов
         int n = secondWay(50); // Второй способ решения второй задачи
         System.out.print(n); // Через return в самомо методе. Void метод заменили на int
     }
