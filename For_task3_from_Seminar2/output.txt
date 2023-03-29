@@ -1,0 +1,4 @@
+.git
+For_task3_from_Seminar2
+Seminar1.java
+Seminar2.java
