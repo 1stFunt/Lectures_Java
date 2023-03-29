@@ -13,7 +13,7 @@ public class Seminar1 {
     private static void task1() {
         Scanner in = new Scanner(System.in);
         String name = in.nextLine();
-        System.out.printf("Привет, %s", name);
+        System.out.printf("Hello, %s", name);
         in.close();
     }
 
