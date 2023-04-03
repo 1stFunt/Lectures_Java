@@ -33,7 +33,6 @@ public class Seminar3 {
         System.out.println(list);
     }
 
-    // Решение Владислава
     public static void ex2() {
         List<String> planetsNames = List.of("Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus",
                 "Neptun", "Pluto");
