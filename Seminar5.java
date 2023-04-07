@@ -47,8 +47,8 @@ public class Seminar5 {
                 'D', 500,
                 'M', 1000);
 
-        StringBuilder romanNumSB = new StringBuilder(romanNum.trim()).reverse();
-        int decimalNum = 0;
+        StringBuilder romanNumSB = new StringBuilder(romanNum.trim()).reverse(); // переворачиваем строчку, 
+        int decimalNum = 0;                                                      // чтоб не обрабатывать послед. символ
         int prevNum = -1;
 
         for (Character romanChar : romanNumSB.toString().toCharArray()) {
